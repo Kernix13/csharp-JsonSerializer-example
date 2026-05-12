@@ -41,6 +41,25 @@ cd JsonOOP
 dotnet run
 ```
 
+### Example JSON
+
+I Used `users.json` from [{JSON} Placeholder](https://jsonplaceholder.typicode.com/) as sample JSON for my objects, though I did not include every field. Here is an example:
+
+```json
+{
+   "id": 1,
+   "name": "Leanne Graham",
+   "username": "Bret",
+   "email": "Sincere@april.biz",
+   "address": {
+      "street": "Kulas Light",
+      "suite": "Apt. 556",
+      "city": "Gwenborough",
+      "zipcode": "92998-3874",
+   }
+},
+```
+
 <span aria-hidden="true"><br></span>
 
 ## Code to use in this project
