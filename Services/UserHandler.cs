@@ -24,11 +24,12 @@ public class UserHandler
 
         var options = new JsonSerializerOptions { WriteIndented = true };
 
-        // Write the _users as JSON to users.json 
+        // Write the _users as JSON to data/users.json 
         string jsonString = JsonSerializer.Serialize(_users, options);
         File.WriteAllText(_filePath, jsonString);
 
     }
 
+    // Get all users as NewUsers objects 
     public List<NewUser> GetUsers() => _users;
 }
