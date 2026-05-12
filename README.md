@@ -1,6 +1,8 @@
 # CSharp OOP using Interfaces and JsonSerializer
 
-This project uses an interface and 3 classes to create user objects, then uses `JsonSerializer` and the `Serialize` method with `JsonSerializerOptions` to create a JSON file of the objects. Eventually, I would like to create AdminUser and/or GuestUser classes. I would also like to use `Deserialize`.
+This project uses an interface and 3 classes to create user objects, then uses `JsonSerializer` and the `Serialize` method with `JsonSerializerOptions` to create a JSON file of the objects.
+
+There is one main class `NewUser` that implements the `IUser` interface. I intend create other classes such as AdminUser, GuestUser, etc.
 
 > The is the final deliverable for week 5 module 2 of the C# Software Development pathway for [Code:You](https://code-you.org/).
 
@@ -43,7 +45,7 @@ dotnet run
 
 ### Example JSON
 
-I Used `users.json` from [{JSON} Placeholder](https://jsonplaceholder.typicode.com/) as sample JSON for my objects, though I did not include every field. Here is an example:
+I used `users.json` from [{JSON} Placeholder](https://jsonplaceholder.typicode.com/) as sample JSON for my objects, though I did not include every field. Here is an example:
 
 ```json
 {
@@ -93,7 +95,7 @@ I Used `users.json` from [{JSON} Placeholder](https://jsonplaceholder.typicode.c
 
 Consider `StreamReader` and `StreamWriter` classes to maybe create a .csv file. I just do not know why I would do that if I am creating a users.json file. `StreamReader` will give me the opportunity to use a `while` loop which seems to always be used with that class.
 
-I do not understand the lesson on `JsonSerializer.Deserialize` though I think it is vital to implement for for a full CRUD app.
+I do not understand the lesson on `JsonSerializer.Deserialize` though I think it is vital to implement for for a full CRUD app. I plan to add it so that I can enable deleting and updating user objects.
 
 ### Module 1 code I want to include
 
