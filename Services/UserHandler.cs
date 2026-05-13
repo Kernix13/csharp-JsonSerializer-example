@@ -30,6 +30,9 @@ public class UserHandler
 
     }
 
+    // Add method here to deserialize the json file:
+    // GetJsonObjects or ConvertJsonToObject or ...
+
     // Get all users as NewUsers objects 
     public List<NewUser> GetUsers() => _users;
 }
