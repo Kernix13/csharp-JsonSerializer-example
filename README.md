@@ -4,11 +4,11 @@ This project uses an interface and 3 classes to create user objects, then uses `
 
 There is one main class `NewUser` that implements the `IUser` interface. I intend create other classes such as AdminUser, GuestUser, etc.
 
-> The is the final deliverable for week 5 module 2 of the C# Software Development pathway for [Code:You](https://code-you.org/).
+> The is the final deliverable for module 2 (week 5) of the C# Software Development pathway for [Code:You](https://code-you.org/).
 
 <!--
   Repo name: csharp-JsonSerializer-example
-  Project name: JsonOOP
+  Project folder name: JsonOOP
   About text: C# Object Oriented Programming example that uses the JsonSerializer class for creating JSON data.
  -->
 
