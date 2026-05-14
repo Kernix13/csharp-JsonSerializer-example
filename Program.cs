@@ -15,14 +15,14 @@ if (!Directory.Exists(folderName))
 }
 
 // Create address objects
-Address user1Address = new Address("Kulas Light", "123", "Apt. 556", "Gwenborough", "KY", "92998");
-Address user2Address = new Address("Victor Plains", "234", "Apt. 879", "Wisokyburgh", "PA", "90566");
-Address user3Address = new Address("Douglas Extension", "345", "Apt. 847", "McKenziehaven", "NJ", "59590");
+Address user1Address = new Address("Kulas Light", 123, "Apt. 556", "Gwenborough", "KY", "92998");
+Address user2Address = new Address("Victor Plains", 234, "Apt. 879", "Wisokyburgh", "PA", "90566");
+Address user3Address = new Address("Douglas Extension", 345, "Apt. 847", "McKenziehaven", "NJ", "59590");
 
 // Create user objects
-NewUser user1 = new NewUser("1", "Leanne Graham", "Bret", "Sincere@april.biz", user1Address);
-NewUser user2 = new NewUser("2", "Ervin Howell", "Antonette", "Shanna@melissa.tv", user2Address);
-NewUser user3 = new NewUser("3", "Clementine Bauch", "Samantha", "Nathan@yesenia.net", user3Address);
+NewUser user1 = new NewUser(1, "Leanne Graham", "Bret", "Sincere@april.biz", user1Address);
+NewUser user2 = new NewUser(2, "Ervin Howell", "Antonette", "Shanna@melissa.tv", user2Address);
+NewUser user3 = new NewUser(3, "Clementine Bauch", "Samantha", "Nathan@yesenia.net", user3Address);
 
 UserHandler handler = new UserHandler(fullPath);
 

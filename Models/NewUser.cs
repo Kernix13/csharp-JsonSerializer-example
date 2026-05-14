@@ -3,7 +3,7 @@ namespace JsonOOP;
 public class NewUser : IUser
 {
   // You must implement everything the interface asked for
-  public string Id { get; set; }
+  public int Id { get; set; }
   public string Name { get; set; }
   public string UserName { get; set; }
   public string Email { get; set; }
@@ -13,7 +13,7 @@ public class NewUser : IUser
   public string FullAddress => HomeAddress.FormatAddress();
   
   // Constructor
-  public NewUser(string id, string name, string userName, string email, Address homeAddress)
+  public NewUser(int id, string name, string userName, string email, Address homeAddress)
   {
       Id = id;
       Name = name;

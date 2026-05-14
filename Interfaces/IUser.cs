@@ -2,7 +2,7 @@ namespace JsonOOP;
 
 public interface IUser
 {
-  string Id { get; set; }
+  int Id { get; set; }
   string Name { get; set; }
   string UserName { get; set; }
   string Email { get; set; }
