@@ -20,9 +20,9 @@ Address user2Address = new Address("Victor Plains", 234, "Apt. 879", "Wisokyburg
 Address user3Address = new Address("Douglas Extension", 345, "Apt. 847", "McKenziehaven", "NJ", "59590");
 
 // Create user objects
-NewUser user1 = new NewUser(1, "Leanne Graham", "Bret", "Sincere@april.biz", user1Address);
-NewUser user2 = new NewUser(2, "Ervin Howell", "Antonette", "Shanna@melissa.tv", user2Address);
-NewUser user3 = new NewUser(3, "Clementine Bauch", "Samantha", "Nathan@yesenia.net", user3Address);
+IUser user1 = new NewUser(1, "Leanne Graham", "Bret", "Sincere@april.biz", user1Address);
+IUser user2 = new NewUser(2, "Ervin Howell", "Antonette", "Shanna@melissa.tv", user2Address);
+IUser user3 = new NewUser(3, "Clementine Bauch", "Samantha", "Nathan@yesenia.net", user3Address);
 
 UserHandler handler = new UserHandler(fullPath);
 
