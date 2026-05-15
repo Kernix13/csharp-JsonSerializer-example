@@ -27,9 +27,11 @@ IUser user3 = new NewUser(3, "Clementine Bauch", "Samantha", "Nathan@yesenia.net
 UserHandler handler = new UserHandler(fullPath);
 
 // Serialize the objects to JSON
+/*
 handler.AddUser(user1);
 handler.AddUser(user2);
 handler.AddUser(user3);
+*/
 
 Console.WriteLine("--- Current User Directory ---");
 foreach (var user in handler.GetUsers())
