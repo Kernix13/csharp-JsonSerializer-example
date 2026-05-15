@@ -85,8 +85,9 @@ I used `users.json` from [{JSON} Placeholder](https://jsonplaceholder.typicode.c
 | Directory.EnumerateFiles   |  📌   |
 | File.WriteAllText          |  ✅   |
 | JsonSerializer.Serialize   |  ✅   |
-| JsonSerializer.Deserialize |  📌   |
+| JsonSerializer.Deserialize |  ✅   |
 | JsonSerializerOptions      |  ✅   |
+| cast using `is` keyword    |  ✅   |
 | `new List<type>`           |  ✅   |
 | `IEnumerable<Type>`        |  📌   |
 | try/catch                  |  📌   |
