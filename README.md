@@ -10,6 +10,11 @@ There is one main class `NewUser` that implements the `IUser` interface. I inten
   Repo name: csharp-JsonSerializer-example
   Project folder name: JsonOOP
   About text: C# Object Oriented Programming example that uses the JsonSerializer class for creating JSON data.
+
+  1. Consumes a JSON file that contains at least one array of object values
+     - I created a json file, I did not "consume"
+  2. Iterates over that array of objects and displays the contents of those objects
+     - I iterate over the users using _users which are objects
  -->
 
 <span aria-hidden="true"><br></span>

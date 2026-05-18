@@ -18,7 +18,6 @@ public class UserHandler
         InitializeData();
     }
 
-    // I had to replace IUser with NewUser here because of errors
     public void AddUser(IUser user)
     {
         if (user is NewUser CurrentUser)
